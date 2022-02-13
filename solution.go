@@ -5,6 +5,7 @@ import (
 )
 
 func GetMessage() string {
-	msg := "Hello 🗺️!"
-	return emoji.Sprintf(msg)
+	msg := "🗺️"
+	fullmsg = emoji.Sprintf("Hello %v!", msg)
+	return fullmsg
 }
