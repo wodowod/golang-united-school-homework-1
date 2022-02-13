@@ -5,7 +5,7 @@ import (
 )
 
 func GetMessage() string {
-	msg := "Hello 🗺️!"
+	msg := "Hello 🗺️ !"
 	fullmsg := emoji.Sprint(msg)
 	return fullmsg
 }
